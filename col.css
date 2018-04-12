@@ -1,0 +1,97 @@
+body{margin: 0;padding: 150px;background-color: #efefef; font-family: sans-serif;
+    font-weight: normal;}
+.contenedor{background-color: #fff;    text-align: center;}
+.clearfix{clear: both;}
+.flota{
+	float: left;
+	box-sizing:border-box;
+}
+header{padding: 1px}
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 56px;
+    border: 6px solid  #efefef;
+    margin-top: -50px;
+}
+.contenedor>div{
+	background-color: #fff;
+}
+header >div>h1{
+    border-bottom: 1px solid #999;
+    max-width: 95%;
+    margin: 0 auto;
+    font-weight: normal;
+    font-size: 1.66em;
+}
+p.col-defaul-90{
+	background-color: #eee;
+    padding: 5px;
+}
+article{
+	text-align: left;
+	margin-left: 5px;
+    clear: both;
+}
+.skills{
+	background-color: #32ad00;
+	margin-bottom: 3px;
+	padding: 2px 0 2px 4px;
+	color:#fff;
+}
+h3{
+	color: #32ad00;;
+}
+p, aside{
+    line-height: 1.5em;
+}
+.col1-deful-10{width: 10%;}
+.col-deful-20{width: 20%;}
+.col-deful-30{width: 30%;}
+.col-deful-40{width: 40%;}
+.col-deful-50{width: 50%;}
+.col-deful-60{width: 60%;}
+.col-deful-60{width: 60%;}
+.col-deful-70{width: 70%;}
+.col-deful-80{width: 80%;}
+.col-deful-90{width: 90%;}
+.col-deful-100{width: 100%;}
+@media (max-width: 800px) and (min-width: 250px){
+.col-sma-10{width: 10%;}
+.col-sma-20{width: 20%;}
+.col-sma-30{width: 30%;}
+.col-sma-40{width: 40%;}
+.col-sma-50{width: 50%;}
+.col-sma-60{width: 60%;}
+.col-sma-60{width: 60%;}
+.col-sma-70{width: 70%;}
+.col-sma-80{width: 80%;}
+.col-sma-90{width: 90%;}
+.col-sma-100{width: 100%;}
+}
+@media (max-width: 1200px) and (min-width: 801px){
+.col-med-10{width: 10%;}
+.col-med-20{width: 20%;}
+.col-med-30{width: 30%;}
+.col-med-40{width: 40%;}
+.col-med-50{width: 50%;}
+.col-med-60{width: 60%;}
+.col-med-60{width: 60%;}
+.col-med-70{width: 70%;}
+.col-med-80{width: 80%;}
+.col-med-90{width: 90%;}
+.col-med-100{width: 100%;}
+}
+@media  (min-width: 1201px){
+.col-ful-10{width: 10%;}
+.col-ful-20{width: 20%;}
+.col-ful-30{width: 30%;}
+.col-ful-40{width: 40%;}
+.col-ful-50{width: 50%;}
+.col-ful-60{width: 60%;}
+.col-ful-60{width: 60%;}
+.col-ful-70{width: 70%;}
+.col-ful-80{width: 80%;}
+.col-ful-90{width: 90%;}
+.col-ful-100{width: 100%;}
+}
